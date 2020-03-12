@@ -1,0 +1,33 @@
+.sect1{
+    padding: rem(226) 0 rem(181) 0;
+
+    &__content{
+        text-align: center;
+    }
+
+    &__logo{
+        margin-bottom: rem(50);
+        img{
+            width: rem(188);
+            height: rem(177);
+        }
+    }
+
+    &__title{
+        width: rem(560);
+        margin: 0 auto;
+        h1{
+            font-family: Roboto;
+            font-size: rem(24);
+            line-height: 1.58;
+            font-weight: 400;
+        }
+    }
+}
+
+
+@media screen and (max-width:769px){
+    .sect1{
+        
+    }
+}

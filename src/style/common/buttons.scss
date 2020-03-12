@@ -1,0 +1,26 @@
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: rem(175);
+    height: rem(45);
+    border-radius: rem(22.5);
+    border: solid 1px $brand_color;
+    font-family: VisbyRoundCF;
+    font-size: rem(16);
+    color: $brand_color;
+    &:hover{
+        background: $brand_color;
+        color: $white;
+    }
+    &:active{
+        background: none;
+        color: $brand_color;
+    }
+}
+
+@media screen and (max-width:769px){
+    .button{
+        
+    }
+}

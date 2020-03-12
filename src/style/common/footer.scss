@@ -1,0 +1,51 @@
+.footer{
+    background-image: url(../images/bg.svg);
+    padding: rem(50) 0;
+
+    &__content{
+        text-align: center;
+    }
+
+    &__logo{
+        width: rem(132);
+        height: rem(80); 
+        background: $white;
+        margin: 0 auto rem(30) auto;
+        img{
+            width: rem(132);
+            height: rem(80); 
+        }
+    }
+
+    &__share{
+        margin-bottom: rem(30);
+    }
+
+    &__shareItem{
+        margin: rem(7.5);
+        img{
+            width: rem(30);
+            height: rem(30);
+        }
+    }
+
+    &__links{
+        a{
+            display: block;
+            font-size: rem(16);
+            line-height: 1.63;
+            color: $white;
+            &:hover{
+                text-decoration: underline dashed;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width:769px){
+    .footer{
+        
+    }
+        
+}

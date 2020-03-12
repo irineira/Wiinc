@@ -1,0 +1,25 @@
+.sect2{
+	background-color: $brand_color;
+	background-image: url(../images/pattern_bg.svg);
+	padding: rem(120) 0;
+
+	.wrapper{
+        width: rem(780);
+    }
+
+	&__title{
+		margin-bottom: rem(30);
+	}
+
+	&__text{
+		p{
+			color: $white;
+			font-size: rem(20);
+			margin-bottom: rem(30);
+			line-height: 1.58;
+			&:last-child{
+				margin: 0;
+			}
+		}
+	}
+}

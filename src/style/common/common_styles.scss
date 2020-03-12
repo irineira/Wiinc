@@ -1,0 +1,81 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+
+textarea {
+    resize: vertical;
+    }
+
+
+
+
+
+
+
+// my style
+
+* {
+    transition:all .1s ease-in-out
+}
+
+html{
+    font-size: 1.1111111vw;
+}
+
+@media screen and (max-width:769px){
+    html{
+        font-size: 16px;
+    }
+}
+
+.content{
+    overflow: hidden;
+}
+
+body{
+    position: relative;
+    font-family: Roboto;
+    color: $maintext;
+    font-weight: 400;
+}
+
+a{
+    cursor: pointer !important;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: Roboto; 
+    src: url("../fonts/Roboto-Regular.eot"),
+    url("../fonts/Roboto-Regular.ttf") format("truetype"),
+    url("../fonts/Roboto-Regular.woff") format("woff"), 
+    url("../fonts/Roboto-Regular.woff2") format("woff2"), 
+    url("../fonts/Roboto-Regular.otf") format("opentype"),
+    url("../fonts/Roboto-Regular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+@font-face {
+    font-family: VisbyRoundCF; 
+    src: url("../fonts/VisbyRoundCF.eot"),
+    url("../fonts/VisbyRoundCF.ttf") format("truetype"),
+    url("../fonts/VisbyRoundCF.woff") format("woff"), 
+    url("../fonts/VisbyRoundCF.woff2") format("woff2"), 
+    url("../fonts/VisbyRoundCF.otf") format("opentype"),
+    url("../fonts/VisbyRoundCF.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: 900; 
+}

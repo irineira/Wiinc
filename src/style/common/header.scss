@@ -1,0 +1,44 @@
+.header{
+    padding: rem(20) 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+
+    &__content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__logo{
+        display: flex;
+        img{
+            width: rem(66);
+            height: (40);
+        }
+    }
+
+    &__menu{
+        display: flex;
+    }
+
+    &__item{
+        padding-left: rem(40);
+        a{
+            display: block;
+            color: $brand_color;
+            font-family: VisbyRoundCF;
+            font-size: rem(16);
+            &:hover{
+                transform: scale(1.1);
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width:769px){
+    .header{
+        
+    }
+}

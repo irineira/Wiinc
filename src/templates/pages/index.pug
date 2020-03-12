@@ -1,0 +1,97 @@
+extends ../template
+
+block varibles
+    - var title = "Wiinc"
+
+block content
+   
+    .content
+        include ../common/header.pug
+
+        section.sect1#mission
+            .wrapper
+                .sect1__content
+                    .sect1__logo
+                        img(src="./images/wiinc-logo.svg", alt="")
+                    .sect1__title
+                        h1 Tagline / Mission statement van max. 1 zin. Lorum ipsum dolor sit amet, consectetur adipiscin elit.
+             
+        section.sect2#about
+            .wrapper
+                .sect2__content
+                    .sect2__title
+                        h2.title About us
+                    .sect2__text
+                        p Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Curabitur blandit tempus porttitor. Sed posuere consectetur est at lobortis. Nulla vitae elit libero, a pharetra augue. Curabitur blandit tempus porttitor.
+                        p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper nulla non metus auctor fringilla. Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada magna mollis euismod.
+        
+        section.sect3#products
+            .sect3__content
+                .sect3__top
+                    .wrapper
+                        .sect3__title
+                            h2.title.title_green Our products
+                        .sect3__text
+                            p Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Curabitur blandit tempus porttitor. Sed posuere consectetur est at lobortis blandit tempus.
+                .productItem
+                    .wrapper
+                        .productItem__content
+                            .productItem__left
+                                img(src="./images/item_1.png", alt="")
+                            .productItem__right
+                                .productItem__logo
+                                    img(src="./images/logo-testa.png", alt="")
+                                .productItem__text
+                                    p Donec sed odio dui. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
+                                .productItem__list
+                                    ul
+                                        li Alle voordelen van Omega-3, alleen vrij van visolie toxines en 	veel verser
+                                        li Rijk aan 250 mg DHA + 125 mg EPA vetzuren
+                                        li Goed voor hart, hersenen en ogen
+                                        li Unieke receptuur met essentiële vitamine E
+                                        li Betere DHA / EPA ratio dan visolie
+                                .productItem__button
+                                    a.button(href="#") Bekijk website 
+                .wrapper   
+                    hr
+                .productItem
+                    .wrapper
+                        .productItem__content
+                            .productItem__left
+                                img(src="./images/item_2.png", alt="")
+                            .productItem__right
+                                .productItem__logo.productItem__logo_2
+                                    img(src="./images/omega-3-logo.png", alt="")
+                                .productItem__text
+                                    p Goed voor jou én de oceaan! Je kunt niet zonder omega-3, wel zonder visolie.
+                                .productItem__list
+                                    ul
+                                        li Visvrij, gifvrij
+                                        li Beste bron van omega-3
+                                        li Hét duurzaam alternatief
+
+                                .productItem__button
+                                    a.button(href="#") Bekijk website 
+                .wrapper   
+                    hr
+                .productItem
+                    .wrapper
+                        .productItem__content
+                            .productItem__left
+                                img(src="./images/item_3.png", alt="")
+                            .productItem__right
+                                .productItem__logo.productItem__logo_3
+                                    img(src="./images/vrill-logo.png", alt="")
+                                .productItem__text
+                                    p Donec sed odio dui. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
+                                .productItem__list
+                                    ul
+                                        li Cras mattis consectetur purus sit amet
+                                        li Curabitur blandit tempus porttitor
+                                        li Donec sed odio dui
+                                .productItem__button
+                                    a.button(href="#") Bekijk website 
+                .wrapper   
+                    hr
+
+        include ../common/footer.pug
