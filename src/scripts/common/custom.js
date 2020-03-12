@@ -29,14 +29,6 @@ $(document).ready(() => {
         $('body').css('overflow-x', 'hidden');
     });
 
-
-// resize
-	$(window).resize(function() {
-
-		if($(window).width() > '768'){
-			$(body).css('overflow', 'visible');
-		}
-	});
 });
 
                                                                         

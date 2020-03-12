@@ -9,11 +9,11 @@
     &__logo{
         width: rem(132);
         height: rem(80); 
-        background: $white;
         margin: 0 auto rem(30) auto;
-        img{
+        svg{
             width: rem(132);
             height: rem(80); 
+            fill: $white;
         }
     }
 
@@ -26,6 +26,9 @@
         img{
             width: rem(30);
             height: rem(30);
+            &:hover{
+                transform: scale(1.1);
+            }
         }
     }
 
