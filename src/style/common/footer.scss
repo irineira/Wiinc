@@ -43,9 +43,16 @@
 }
 
 
-@media screen and (max-width:769px){
+@media screen and (max-width:500px){
     .footer{
-        
-    }
-        
+        &__links{
+            a{
+                font-size: 14px;
+                line-height: 1.57;
+                &:first-child{
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }     
 }

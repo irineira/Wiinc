@@ -1,6 +1,6 @@
 $(document).ready(() => {
 
-    // scrol menu
+// scrol menu
     $(document).on('click', '.header__item a', function() {
         event.preventDefault();
         var id = $(this).attr('href'),
@@ -10,42 +10,33 @@ $(document).ready(() => {
         }, 500);
 	})
 	
-	
 
-    // burger
-    // $('.burger').click(function() {
-    //     $('.adaptmenu').addClass('adaptmenu_active');
-    //     $('body').css('overflow', 'hidden');
-    // });
+//burger
+    $('.burger').click(function() {
+        $('.adaptmenu').addClass('adaptmenu_active');
+        $('body').css('overflow', 'hidden');
+    });
 
-    // $('.close').click(function() {
-    //     $('.adaptmenu').removeClass('adaptmenu_active');
-    //     $('body').css('overflow', 'visible');
-    //     $('body').css('overflow-x', 'hidden');
-    // });
+    $('.close').click(function() {
+        $('.adaptmenu').removeClass('adaptmenu_active');
+        $('body').css('overflow', 'visible');
+        $('body').css('overflow-x', 'hidden');
+    });
 
-    // $('.adaptmenu nav').click(function() {
-    //     $('.adaptmenu').removeClass('adaptmenu_active');
-    //     $('body').css('overflow', 'visible');
-    //     $('body').css('overflow-x', 'hidden');
-    // });
-
-
-// $(window).resize(function() {
-
-//     if($(window).width() > '768'){
-//         console.log('da');
-//         $(body).css('overflow', 'visible');
-//     }
-    
-// });
+    $('.header__item').click(function() {
+        $('.adaptmenu').removeClass('adaptmenu_active');
+        $('body').css('overflow', 'visible');
+        $('body').css('overflow-x', 'hidden');
+    });
 
 
+// resize
+	$(window).resize(function() {
 
-
-   
-    
-
+		if($(window).width() > '768'){
+			$(body).css('overflow', 'visible');
+		}
+	});
 });
 
                                                                         

@@ -19,8 +19,12 @@
     }
 }
 
-@media screen and (max-width:769px){
+
+@media screen and (max-width:500px){
     .button{
-        
+        width: 151px;
+        height: 39px;
+        font-size: 14px;
+        line-height: 1;
     }
 }

@@ -26,8 +26,25 @@
 }
 
 
-@media screen and (max-width:769px){
+@media screen and (max-width:500px){
     .sect1{
-        
+        padding: 167px 0;
+
+        &__logo{
+            margin-bottom: 30px;
+            img{
+                width: 120px;
+                height: 113px;
+            }
+        }
+
+        &__title{
+            width: 100%;
+            h1{
+                font-size: 18px;
+                line-height: 1.67;
+                font-weight: 400;
+            }
+        }
     }
 }
